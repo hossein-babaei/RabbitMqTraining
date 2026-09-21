@@ -1,0 +1,15 @@
+<Solution>
+  <Folder Name="/Training1/">
+    <Project Path="Rabbit_Sample_Consumer/Rabbit_Sample_Consumer.csproj" />
+    <Project Path="Rabbit_Sample_Producer/Rabbit_Sample_Producer.csproj" />
+  </Folder>
+  <Folder Name="/Training2/">
+    <Project Path="Training2/Rabbit_Sample_Consumer_Sub/Rabbit_Sample_Consumer_Sub.csproj" Id="be2b217f-6c21-4cb4-8c40-f334e35ff9cd" />
+    <Project Path="Training2/Rabbit_Sample_Producer_Pub/Rabbit_Sample_Producer_Pub.csproj" Id="5620a536-fb00-4c73-af29-d77540312fc8" />
+  </Folder>
+  <Folder Name="/Training3/">
+    <Project Path="Training3/Rabbit_Sample_Consumer_Topic/Rabbit_Sample_Consumer_Topic.csproj" Id="a76e9603-75a1-4f1d-9c1c-da15c1fb6303" />
+    <Project Path="Training3/Rabbit_Sample_Consumer_Topic_2/Rabbit_Sample_Consumer_Topic_2.csproj" Id="e32324f5-775a-4012-8c86-2dbb1748eff7" />
+    <Project Path="Training3/Rabbit_Sample_Producer_Topic/Rabbit_Sample_Producer_Topic.csproj" Id="05a35dd7-888a-475a-af21-b180963fdd0b" />
+  </Folder>
+</Solution>
