@@ -12,4 +12,13 @@
     <Project Path="Training3/Rabbit_Sample_Consumer_Topic_2/Rabbit_Sample_Consumer_Topic_2.csproj" Id="e32324f5-775a-4012-8c86-2dbb1748eff7" />
     <Project Path="Training3/Rabbit_Sample_Producer_Topic/Rabbit_Sample_Producer_Topic.csproj" Id="05a35dd7-888a-475a-af21-b180963fdd0b" />
   </Folder>
+  <Folder Name="/Training4/">
+    <Project Path="Training4/Rabbit_Sample_Consumer_Direct/Rabbit_Sample_Consumer_Direct.csproj" Id="8d3caafa-736c-4797-860b-bbcfc587319f" />
+    <Project Path="Training4/Rabbit_Sample_Producer_Direct/Rabbit_Sample_Producer_Direct.csproj" Id="16e94f2d-1c8d-492e-a5ca-49a70fd68d45" />
+  </Folder>
+  <Folder Name="/Training5/">
+    <Project Path="Training5/Rabbit_Sample_Consumer_Fanout/Rabbit_Sample_Consumer_Fanout.csproj" Id="e4031902-044f-4d22-ae7c-4628d3c42c17" />
+    <Project Path="Training5/Rabbit_Sample_Consumer_Fanout_2/Rabbit_Sample_Consumer_Fanout_2.csproj" Id="74c95060-baa4-4548-8d62-fd06d6beef17" />
+    <Project Path="Training5/Rabbit_Sample_Producer_Fanout/Rabbit_Sample_Producer_Fanout.csproj" Id="f981a53d-5259-4473-991a-0caaef9279df" />
+  </Folder>
 </Solution>
