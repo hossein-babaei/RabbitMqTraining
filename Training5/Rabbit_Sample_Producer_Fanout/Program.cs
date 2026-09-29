@@ -17,7 +17,6 @@ await channel.ExchangeDeclareAsync(exchangeName, ExchangeType.Fanout);
 
 bool isRepeat = true;
 
-//we have log.*.info and log.*.error consumer
 while (isRepeat)
 {
     Console.WriteLine("Please enter command:");

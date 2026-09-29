@@ -1,8 +1,8 @@
 ﻿using RabbitMQ.Client;
 using RabbitMQ.Client.Events;
 
-Console.Title = "Consumer info _ Fanout";
-Console.WriteLine("Consumer info");
+Console.Title = "Consumer two _ Fanout";
+Console.WriteLine("Consumer two");
 Console.WriteLine("-----------------------");
 var connectionFactory = new ConnectionFactory()
 {

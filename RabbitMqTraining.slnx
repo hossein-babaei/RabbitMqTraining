@@ -1,24 +1,38 @@
 <Solution>
   <Folder Name="/Training1/">
-    <Project Path="Rabbit_Sample_Consumer/Rabbit_Sample_Consumer.csproj" />
-    <Project Path="Rabbit_Sample_Producer/Rabbit_Sample_Producer.csproj" />
+    <Project Path="Training1/Rabbit_Sample_Consumer/Rabbit_Sample_Consumer.csproj" />
+    <Project Path="Training1/Rabbit_Sample_Producer/Rabbit_Sample_Producer.csproj" />
   </Folder>
-  <Folder Name="/Training2/">
+  <Folder Name="/Training2-PubSub/">
     <Project Path="Training2/Rabbit_Sample_Consumer_Sub/Rabbit_Sample_Consumer_Sub.csproj" Id="be2b217f-6c21-4cb4-8c40-f334e35ff9cd" />
     <Project Path="Training2/Rabbit_Sample_Producer_Pub/Rabbit_Sample_Producer_Pub.csproj" Id="5620a536-fb00-4c73-af29-d77540312fc8" />
   </Folder>
-  <Folder Name="/Training3/">
+  <Folder Name="/Training3-Topic/">
     <Project Path="Training3/Rabbit_Sample_Consumer_Topic/Rabbit_Sample_Consumer_Topic.csproj" Id="a76e9603-75a1-4f1d-9c1c-da15c1fb6303" />
     <Project Path="Training3/Rabbit_Sample_Consumer_Topic_2/Rabbit_Sample_Consumer_Topic_2.csproj" Id="e32324f5-775a-4012-8c86-2dbb1748eff7" />
     <Project Path="Training3/Rabbit_Sample_Producer_Topic/Rabbit_Sample_Producer_Topic.csproj" Id="05a35dd7-888a-475a-af21-b180963fdd0b" />
   </Folder>
-  <Folder Name="/Training4/">
+  <Folder Name="/Training4-Direct/">
     <Project Path="Training4/Rabbit_Sample_Consumer_Direct/Rabbit_Sample_Consumer_Direct.csproj" Id="8d3caafa-736c-4797-860b-bbcfc587319f" />
     <Project Path="Training4/Rabbit_Sample_Producer_Direct/Rabbit_Sample_Producer_Direct.csproj" Id="16e94f2d-1c8d-492e-a5ca-49a70fd68d45" />
   </Folder>
-  <Folder Name="/Training5/">
+  <Folder Name="/Training5-Fanout/">
     <Project Path="Training5/Rabbit_Sample_Consumer_Fanout/Rabbit_Sample_Consumer_Fanout.csproj" Id="e4031902-044f-4d22-ae7c-4628d3c42c17" />
     <Project Path="Training5/Rabbit_Sample_Consumer_Fanout_2/Rabbit_Sample_Consumer_Fanout_2.csproj" Id="74c95060-baa4-4548-8d62-fd06d6beef17" />
     <Project Path="Training5/Rabbit_Sample_Producer_Fanout/Rabbit_Sample_Producer_Fanout.csproj" Id="f981a53d-5259-4473-991a-0caaef9279df" />
+  </Folder>
+  <Folder Name="/Training6-Headers/">
+    <Project Path="Training6/Rabbit_Sample_Consumer_Header/Rabbit_Sample_Consumer_Header.csproj" Id="3ba9f17e-d843-4833-82f9-93ba8e398023" />
+    <Project Path="Training6/Rabbit_Sample_Consumer_Header_2/Rabbit_Sample_Consumer_Header_2.csproj" Id="a1d3b643-c739-4087-afe4-da1f64026d40" />
+    <Project Path="Training6/Rabbit_Sample_Producer_Header/Rabbit_Sample_Producer_Header.csproj" Id="fba9782b-3460-4713-8fe0-b78bebbaaded" />
+  </Folder>
+  <Folder Name="/Training7-RequestReply/">
+    <Project Path="Training7/Rabbit_Sample_Consumer_Request/Rabbit_Sample_Consumer_Request.csproj" Id="1fca1b97-c931-4dc6-b2b1-a8f2b25e6ce8" />
+    <Project Path="Training7/Rabbit_Sample_Producer_Reply/Rabbit_Sample_Producer_Reply.csproj" Id="c73e0230-3da9-4b76-b44c-4f3665ac2c92" />
+  </Folder>
+  <Folder Name="/Training8-ExchangeToExchange/">
+    <Project Path="Training8/Rabbit_Sample_Consumer_ExToEx/Rabbit_Sample_Consumer_ExToEx.csproj" Id="0421186b-073b-410d-94f8-d040dc043183" />
+    <Project Path="Training8/Rabbit_Sample_Consumer_ExToEx2/Rabbit_Sample_Consumer_ExToEx2.csproj" Id="b8b6c5d7-3ab0-4cdc-bbee-96e234f51525" />
+    <Project Path="Training8/Rabbit_Sample_Producer_ExToEx/Rabbit_Sample_Producer_ExToEx.csproj" Id="ac687a5c-0c8d-4913-b765-42c8bc0b905c" />
   </Folder>
 </Solution>

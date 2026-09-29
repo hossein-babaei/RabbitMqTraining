@@ -1,8 +1,8 @@
 ﻿using RabbitMQ.Client;
 using RabbitMQ.Client.Events;
 
-Console.Title = "Consumer error _ Fanout";
-Console.WriteLine("Consumer error");
+Console.Title = "Consumer one _ Fanout";
+Console.WriteLine("Consumer one");
 Console.WriteLine("-----------------------");
 var connectionFactory = new ConnectionFactory()
 {
