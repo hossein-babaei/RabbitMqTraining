@@ -35,4 +35,10 @@
     <Project Path="Training8/Rabbit_Sample_Consumer_ExToEx2/Rabbit_Sample_Consumer_ExToEx2.csproj" Id="b8b6c5d7-3ab0-4cdc-bbee-96e234f51525" />
     <Project Path="Training8/Rabbit_Sample_Producer_ExToEx/Rabbit_Sample_Producer_ExToEx.csproj" Id="ac687a5c-0c8d-4913-b765-42c8bc0b905c" />
   </Folder>
+  <Folder Name="/Training9-FileApi/">
+    <Project Path="Training9/FileApi/FileApi.csproj" Id="add51525-4678-4b6a-a4f5-22c817220768" />
+    <Project Path="Training9/FileApi_Consumer/FileApi_Pdf_Consumer.csproj" Id="45910754-40d0-444b-83de-05dabade7d1c" />
+    <Project Path="Training9/FileApi_Docx_Consumer/FileApi_Docx_Consumer.csproj" Id="2e280658-85f6-4acc-9d7f-29340cbd5188" />
+    <Project Path="Training9/FileApi_Xlsx_Consumer/FileApi_Xlsx_Consumer.csproj" Id="bec76511-874c-45e3-8b12-7893387d7c95" />
+  </Folder>
 </Solution>

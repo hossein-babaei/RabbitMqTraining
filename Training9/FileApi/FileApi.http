@@ -1,0 +1,6 @@
+@FileApi_HostAddress = http://localhost:5223
+
+GET {{FileApi_HostAddress}}/hello/
+Accept: application/json
+
+###
