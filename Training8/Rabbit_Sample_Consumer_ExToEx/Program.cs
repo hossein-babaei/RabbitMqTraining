@@ -30,7 +30,7 @@ consumerEvent.ReceivedAsync += async (model, ea) =>
     //return Task.CompletedTask;
 };
 
-await channel.BasicConsumeAsync("my-queue", true, consumerEvent);
+await channel.BasicConsumeAsync("my-queue", false, consumerEvent);
 
 Console.WriteLine("Consumer finished");
 Console.ReadKey();

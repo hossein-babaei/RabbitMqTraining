@@ -37,7 +37,7 @@ consumerEvent.ReceivedAsync += async (model, ea) =>
     await channel.BasicAckAsync(ea.DeliveryTag, false);
 };
 
-await channel.BasicConsumeAsync(queueName, autoAck: true, consumer: consumerEvent);
+await channel.BasicConsumeAsync(queueName, autoAck: false, consumer: consumerEvent);
 
 Console.WriteLine("Consumer direct finished");
 Console.ReadLine();
